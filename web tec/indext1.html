@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		/* Styling the body */
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		/* Styling section, giving background
+			image and dimensions */
+		section {
+			width: 100%;
+			height: 100vh;
+			background:
+				url(images.jpeg
+
+				);
+			background-size: cover;
+		}
+		/* Styling the left floating section */
+		section .leftBox {
+			width: 50%;
+			height: 100%;
+			float: left;
+			padding: 50px;
+			box-sizing: border-box;
+		}
+		/* Styling the background of 
+			left floating section */
+		section .leftBox .content {
+			color: #fff;
+			background: rgba(0, 0, 0, 0.5);
+			padding: 40px;
+			transition: .5s;
+		}
+		/* Styling the hover effect 
+			of left floating section */
+		section .leftBox .content:hover {
+			background: #e91e63;
+		}
+		/* Styling the header of left 
+			floating section */
+		section .leftBox .content h1 {
+			margin: 0;
+			padding: 0;
+			font-size: 50px;
+			text-transform: uppercase;
+		}
+		/* Styling the paragraph of 
+			left floating section */
+		section .leftBox .content p {
+			margin: 10px 0 0;
+			padding: 0;
+		}
+		/* Styling the three events section */
+		section .events {
+			position: relative;
+			width: 50%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.5);
+			float: right;
+			box-sizing: border-box;
+		}
+		/* Styling the links of 
+		the events section */
+		section .events ul {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			margin: 0;
+			padding: 40px;
+			box-sizing: border-box;
+		}
+		/* Styling the lists of the event section */
+		section .events ul li {
+			list-style: none;
+			background: #fff;
+			box-sizing: border-box;
+			height: 200px;
+			margin: 15px 0;
+		}
+		/* Styling the time class of events section */
+		section .events ul li .time {
+			position: relative;
+			padding: 20px;
+			background: #262626;
+			box-sizing: border-box;
+			width: 30%;
+			height: 100%;
+			float: left;
+			text-align: center;
+			transition: .5s;
+		}
+		/* Styling the hover effect
+			of events section */
+		section .events ul li:hover .time {
+			background: #e91e63;
+		}
+		/* Styling the header of time 
+			class of events section */
+		section .events ul li .time h2 {
+			position: absolute;
+			margin: 0;
+			padding: 0;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: #fff;
+			font-size: 60px;
+			line-height: 30px;
+		}
+		/* Styling the texts of time 
+		class of events section */
+		section .events ul li .time h2 span {
+			font-size: 30px;
+		}
+
+		/* Styling the details 
+		class of events section */
+		section .events ul li .details {
+			padding: 20px;
+			background: #fff;
+			box-sizing: border-box;
+			width: 70%;
+			height: 100%;
+			float: left;
+		}
+		/* Styling the header of the 
+		details class of events section */
+		section .events ul li .details h3 {
+			position: relative;
+			margin: 0;
+			padding: 0;
+			font-size: 22px;
+		}
+		/* Styling the lists of details 
+		class of events section */
+		section .events ul li .details p {
+			position: relative;
+			margin: 10px 0 0;
+			padding: 0;
+			font-size: 16px;
+		}
+		/* Styling the links of details
+		class of events section */
+		section .events ul li .details a {
+			display: inline-block;
+			text-decoration: none;
+			padding: 10px 15px;
+			border: 1.5px solid #262626;
+			margin-top: 8px;
+			font-size: 18px;
+			transition: .5s;
+		}
+		/* Styling the details class's hover effect */
+		section .events ul li .details a:hover {
+			background: #e91e63;
+			color: #fff;
+			border-color: #e91e63;
+		}
+		
+		img
+		{
+			
+			border-radius: 50%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			opacity: 1;
+			height: 40%;
+			width: 40%;
+			-webkit-box-reflect: right 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+			padding-left: 50px;
+			padding-top: 50px;
+			float: left;
+		}
+
+	</style>
+</head>
+<body>
+	<section>
+		<div class="leftBox">
+			<div class="content">
+				<h1>
+					Why we predict index for AQI , WQI , SQI ???
+					
+				</h1>
+				<p>
+					Air quality index (AQI) is used to indicate the levels of the criteria pollutants in the air. The overall AQI
+                 is the maximum of the AQI recorded for the individual criteria pollutants. AQI levels also indicate the health risks 
+                 associated with exposure to the particular air quality.
+				</p>
+				
+			</div>
+
+			
+				<img src="images (1).jPEG" >
+			
+		</div>
+		<div class="events">
+			<ul>
+				<li>
+					<div class="time">
+						<h2>
+							AQI <br><span>Air quality index</span>
+						</h2>
+					</div>
+					<div class="details">
+						<h3>
+							Why we predict AQI ??
+						</h3>
+						<p>
+							The air pollution analysis is considered to be an important study for mapping the pollution level in different cities. The machine learning algorithms are widely used to predict, forecast and control pollution level.
+						</p>
+                            <a href="#">View Details <form >
+								<label for="fname">predict AQI:</label>
+								<input type="text" id="predict AQI" name="predict AQI" >
+								<label for="result">result:</label>
+								<input type="text" id="result" name="result" ><br>
+								<input type="submit" value="Submit">
+							  </form></a>
+					</div> 
+					<div style="clear: both;"></div>
+				</li>
+				<li>
+					<div class="time">
+						<h2>
+							WQI <br><span>Water quality index</span>
+						</h2>
+					</div>
+					<div class="details">
+						<h3>
+							Why we predict WQI ??
+						</h3>
+						<p>
+							The quality of water has a direct influence on both human health and the environment. Water is utilized for a variety of purposes, including drinking, agriculture, and industrial use. The water quality index (WQI) is a critical indication for proper water management
+						</p>
+						<a href="#">View Details<form >
+						
+							<label for="result">predict WQI:</label>
+							<label for="fname">result:</label>
+							<input type="text" id="predict WQI" name="predict WQI" >
+							<input type="text" id="result" name="result" ><br>
+							<input type="submit" value="Submit">
+						  </form></a>
+					</div>
+					<div style="clear:both;"></div>
+				</li>
+				<li>
+					<div class="time">
+						<h2>
+							SQI<br><span>Soil quality index</span>
+						</h2>
+					</div>
+					<div class="details">
+						<h3>
+							Why we predict SQI ??
+						</h3>
+						<p>
+                            decline in soil quality interrupts primary soil functions and may hamper crop production and food security. However, soil quality evaluation is necessary for identifying areas with corresponding high and low soil quality, and their suitability for agricultural land use in general and cultivated crops in particular.
+						</p>
+						<a href="#">View Details<form >
+						
+							<label for="result">predict SQI:</label>
+							<label for="fname">result:</label>
+							<input type="text" id="predict SQI" name="predict SQI" >
+							<input type="text" id="result" name="result" ><br>
+							<input type="submit" value="Submit">
+						  </form></a>
+					</div>
+					<div style="clear:both;"></div>
+				</li>
+			</ul>
+		</div>
+	</section>
+</body>
+</html>
